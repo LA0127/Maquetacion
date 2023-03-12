@@ -1,3 +1,28 @@
-Este sería el ejemplo de como se hacen los git compartidos :3
-Master
-Luis
+Redes neuronales feedforward:
+"A Beginner's Guide to Feedforward Neural Networks" (Enlace: https://pathmind.com/wiki/neural-network)
+
+"Building a Feedforward Neural Network from Scratch in Python" (Enlace: https://builtin.com/data-science/how-build-neural-network-keras)
+
+
+Redes neuronales recurrentes:
+"Understanding LSTM Networks" (Enlace: https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+"A Beginner's Guide to Recurrent Neural Networks and LSTMs" por Victor Zhou: https://victorzhou.com/blog/intro-to-rnns/
+
+
+Redes neuronales convolucionales:
+"A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way" (Enlace: https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+
+"An Intuitive Explanation of Convolutional Neural Networks" por Meet Kumar: https://medium.com/@meetkumar/an-intuitive-explanation-of-convolutional-neural-networks-bda2070df181
+
+
+Redes neuronales de memoria a corto plazo (LSTM):
+"The Unreasonable Effectiveness of Recurrent Neural Networks" por Andrej Karpathy: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
+"Long Short-Term Memory Networks With Python" (Enlace: https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
+
+
+Redes neuronales generativas adversariales (GAN):
+"A Beginner's Guide to Generative Adversarial Networks (GANs)" (Enlace: https://pathmind.com/wiki/generative-adversarial-network-gan)
+
+"Generative Adversarial Networks (GANs) Tutorial" (Enlace: https://www.tensorflow.org/tutorials/generative/dcgan)
