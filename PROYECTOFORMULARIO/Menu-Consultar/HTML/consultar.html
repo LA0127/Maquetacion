@@ -11,25 +11,49 @@
     <title>Consultar</title>
 </head>
 <body>
-    <div class="Titulo">
-        <h1>
-            Consultar
-        </h1>
+  <div class="consultar-formularios">
+    <h2>Consultar formularios pasados</h2>
+  
+    <form>
+      <label for="busqueda">Buscar por nombre:</label>
+      <input type="text" id="busqueda" name="busqueda" placeholder="Ingrese el nombre de la evaluación">
+      <button type="submit">Buscar</button>
+    </form>
+  
+    <div class="resultados">
+      <h3>Resultados de búsqueda</h3>
+      <p>No se encontraron resultados.</p>
     </div>
-    <nav>
-        <ul>
-          <li class="dropdown">
-            <a>Gestionar Formulario</a>
-            <ul class="dropdown-content">
-              <li><a href="../../Menu-Crear/HTML/crearformulario.html">Crear</a></li>
-              <li><a href="consultar.html">Consultar</a></li>
-            </ul>
-          </li>
-          </li>
-          <li><a href="../../Evaluacion-Historica/HTML/evaluacionhistorica.html">Evaluación Histórica</a></li>
-          <li><a href="../../Reporte/HTML/reportes.html">Reporte</a></li>
-        </ul>
-      </nav>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre de la evaluación</th>
+          <th>Fecha de inicio</th>
+          <th>Fecha de fin</th>
+          <th>Puntaje máximo</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Evaluación 1</td>
+          <td>01/01/2022</td>
+          <td>31/01/2022</td>
+          <td>100</td>
+          <td><a href="#">Ver detalles</a></td>
+        </tr>
+        <tr>
+          <td>Evaluación 2</td>
+          <td>01/02/2022</td>
+          <td>28/02/2022</td>
+          <td>50</td>
+          <td><a href="#">Ver detalles</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
       
 </body>
 </html>
