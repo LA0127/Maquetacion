@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/menuconsultar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Crear</title>
+</head>
+<body>
+  <div class="Titulo">
+    <h1>
+        Crear Formulario
+    </h1>
+</div>
+<nav>
+    <ul>
+      <li class="dropdown">
+        <a>Gestionar Formulario</a>
+        <ul class="dropdown-content">
+          <li><a href="../../Menu-Crear/HTML/crearformulario.html">Crear</a></li>
+          <li><a href="../../Menu-Consultar/HTML/consultar.html">Consultar</a></li>
+        </ul>
+      </li>
+      </li>
+      <li><a href="../../Evaluacion-Historica/HTML/evaluacionhistorica.html">Evaluación Histórica</a></li>
+      <li><a href="../../Reportes/HTML/reportes.html">Reporte</a></li>
+    </ul>
+  </nav>
+  <form>
+    <label for="nombre">Nombre de la evaluación:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+  
+    <label for="descripcion">Preguntas de la evaluación:</label>
+    <textarea id="descripcion" name="descripcion"></textarea><br>
+  
+    <label for="fecha_inicio">Fecha de inicio:</label>
+    <input type="date" id="fecha_inicio" name="fecha_inicio" required><br>
+  
+    <label for="fecha_fin">Fecha de fin:</label>
+    <input type="date" id="fecha_fin" name="fecha_fin" required><br>
+  
+    <label for="puntaje_maximo">Puntaje máximo:</label>
+    <input type="number" id="puntaje_maximo" name="puntaje_maximo" min="1" required><br>
+    <br>
+  
+    <button type="submit" onclick="crearEvaluacion()">Crear evaluación</button>
+  </form>
+  
+  <script>
+  function crearEvaluacion() {
+  
+    var nombre = document.getElementById("nombre").value;
+    var descripcion = document.getElementById("descripcion").value;
+    var fechaInicio = document.getElementById("fecha_inicio").value;
+    var fechaFin = document.getElementById("fecha_fin").value;
+    var puntajeMaximo = document.getElementById("puntaje_maximo").value;
+  
+
+    console.log("Nombre: " + nombre);
+    console.log("Descripción: " + descripcion);
+    console.log("Fecha de inicio: " + fechaInicio);
+    console.log("Fecha de fin: " + fechaFin);
+    console.log("Puntaje máximo: " + puntajeMaximo);
+  
+
+    document.getElementById("nombre").value = "";
+    document.getElementById("descripcion").value = "";
+    document.getElementById("fecha_inicio").value = "";
+    document.getElementById("fecha_fin").value = "";
+    document.getElementById("puntaje_maximo").value = "";
+  }
+  </script>
+  
+      
+</body>
+</html>
